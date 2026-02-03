@@ -1,3 +1,38 @@
-p {
+body {
+  font-family: Arial;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  color: red;
+}
+
+.note {
   color: blue;
+  font-weight: bold;
+}
+
+#special {
+  background: lightblue;
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Media Query For Responsiveness*/
+@media (max-width: 600px) {
+  body {
+    background-color: lightyellow;
+  }
 }
